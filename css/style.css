@@ -442,7 +442,7 @@ header {
 }
 .background {
     height: 65vh;
-    background-position: 50% -170px;
+    background-attachment: inherit;
 }
 .background h1 {
     left: 50%;
