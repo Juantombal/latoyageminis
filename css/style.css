@@ -135,13 +135,16 @@ header nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
 
 .background{
   height: 100vh;
-  background: url(latoyageminis2.jpg) center bottom;
-  background-size:cover;
-  z-index: 99;
-  position: relative;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 70%;
+  z-index: 1;
+}
+.imgepci {
+    background: url(latoyageminis2.jpg) center bottom;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: 50% 70%;
 }
 .background h1{
   font-family: auto;
@@ -442,12 +445,16 @@ header {
 }
 .background {
     height: 65vh;
-    background-attachment: inherit;
+    background-position: 50% -170px;
 }
+.imgepci {
+    height: 65vh;
+}
+
 .background h1 {
     left: 50%;
-    top: inherit;
-    bottom: 10px;
+    position: relative;
+    top: 89%;
     font-size: 35px;
     -webkit-text-stroke: inherit;
     font-family: sans-serif;
