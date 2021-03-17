@@ -135,12 +135,13 @@ header nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
 
 .background{
   height: 100vh;
-  background: url(toyagem.jpg) center center;
+  background: url(latoyageminis2.jpg) center bottom;
   background-size:cover;
   z-index: 99;
   position: relative;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: 50% 70%;
 }
 .background h1{
   font-family: auto;
@@ -166,8 +167,8 @@ header nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
 }
 .grid_main{
   display:grid;
-  grid-template-columns: 1fr 1fr;
-  padding:30px 0px;
+  grid-template-columns: 1fr;
+  padding:30px 100px;
   text-align: center;
 }
 
@@ -221,8 +222,8 @@ iframe{
 }
 
 .maincontent{
-    background: #2a2c31;
-    background-size: 100%;
+    background: url(backgrcol.jpg) center top;
+    background-size: cover;
     color: #fff;
     border-top: 2px solid #fff;
 }
@@ -287,7 +288,8 @@ footer{
 }
 .over {
     text-align: center;
-    background: #2a2c31;
+    background: url(backgrcol.jpg) center top;
+    background-size: cover;
     border-top:2px solid #fff;
     color: #fff;
     padding:50px 0px;
@@ -323,6 +325,16 @@ section#overm article  {
   text-decoration: none;
   line-height: 2em;
 }
+img.img-spotify {
+    width: 40px;
+    margin: 10px 0px;
+}
+iframe.iframe-follow-spotify {
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 202px;
+}
+
 @media (max-width:1050px) {
   header nav h2 {
     display: block;
@@ -357,11 +369,11 @@ header nav li {
 .modal-button {
     width: 100%;
 }
+.grid_main{
+  padding:30px 0px;
+}
 }
 @media (max-width:767px) {
-.background {
-    background-attachment: inherit;
-}
 header .container{
   width:100%;
   margin:0 auto;
@@ -421,16 +433,32 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.background h1 {
-    left: 50%;
-    top: 35%;
-}
 .float_right {
     text-align: center;
     margin-top: 15px;
 }
 .margin_h2 {
     margin-top: 20px;
+}
+.background {
+    height: 65vh;
+    background-position: 50% -170px;
+}
+.background h1 {
+    left: 50%;
+    top: inherit;
+    bottom: 10px;
+    font-size: 35px;
+    -webkit-text-stroke: inherit;
+    font-family: sans-serif;
+    width: 310px;
+    background: url(blauw.png) center right;
+    background-size: 23px;
+    background-position: right 11px;
+    background-repeat: no-repeat;
+}
+br.brdisplay {
+    display: none;
 }
 }
 @media (min-width: 767px) {
