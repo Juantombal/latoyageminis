@@ -5,6 +5,7 @@
 }
 html{
   scroll-behavior: smooth;
+  background: black;
 }
 a {
     color: unset;
@@ -18,6 +19,7 @@ body{
   font-family: 'Open Sans' , sans-serif;
   font-size:15px;
   margin:0;
+  background: black;
 }
 .container{
   width:70%;
