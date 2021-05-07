@@ -24,6 +24,9 @@ body{
   width:70%;
   margin:0 auto;
 }
+iframe {
+    width: 100%;
+}
 header {
   position: fixed;
   color: #fff;
