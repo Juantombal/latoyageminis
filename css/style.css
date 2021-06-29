@@ -138,18 +138,19 @@ header nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
 }
 
 .background{
-  height: 100vh;
+  height: 80vh;
   z-index: 1;
 }
 .imgepci {
-    background: url(latoyageminis2.jpg) center bottom;
-    height: 100vh;
+    background: url(toyagem2.jpg) center bottom no-repeat, url(backgrcol.jpg);
+    height: 80vh;
     position: fixed;
     width: 100%;
     z-index: -1;
-    background-size: cover;
-    background-position: 50% 70%;
+    background-size: 80vh, cover;
+    background-position: 50% 0%;
 }
+
 .background h1{
   font-family: auto;
   font-size:80px;
@@ -450,9 +451,12 @@ header {
 .background {
     height: 65vh;
     background-position: 50% -170px;
+    padding-top: 60px;
+
 }
 .imgepci {
     height: 65vh;
+    background-size: cover;
 }
 
 .background h1 {
