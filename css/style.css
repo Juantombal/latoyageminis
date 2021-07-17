@@ -142,13 +142,13 @@ header nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   z-index: 1;
 }
 .imgepci {
-    background: url(toyagem2.jpg) center bottom no-repeat, url(backgrcol.jpg);
+    background: url(latoyagem3.jpg) center top no-repeat, url(backgrcol.jpg);
     height: 80vh;
     position: fixed;
     width: 100%;
     z-index: -1;
     background-size: 80vh, cover;
-    background-position: 50% 0%;
+    background-position: 50% 50%;
 }
 
 .background h1{
